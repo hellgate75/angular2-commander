@@ -1,0 +1,39 @@
+
+.history-wrap {
+  display: block;
+  position: relative;
+  float: left;
+  color: #500202;
+  height: 500px;
+  width: 30%;
+  min-width: 250px;
+  margin-top: 50px;
+  margin-left: 5px;
+  padding: 0px !important;
+  overflow-y: auto;
+  background-color: #efe2b5;
+  border: 2px solid gray;
+}
+.history-line {
+  width: 100%;
+  color: #500202;
+  overflow-x: auto;
+  padding: 5px !important;
+}
+.history-command {
+  width: 100%;
+  font-weight: bold;
+}
+.state-container {
+  width: 100%;
+  min-width: 200px;
+}
+.error {
+  color: red;
+}
+.history-result {
+  color: green;
+}
+.history-result.error {
+  color: red;
+}
