@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/images/logos/command-line-logo.png" alt="Angular 2 RxJS Command Line Manager" width="500" height="300"/>
+  <img src="app/images/logos/command-line-logo.png" alt="Angular 2 RxJS Command Line Manager" width="100" height="100"/>
 </p>
 
 # Angular 2 RxJS Command Line Manager
