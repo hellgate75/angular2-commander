@@ -89,7 +89,7 @@ npm run test
 
 ## Contribute
 
-Commands are not provided. Please fork and create command side and server side commands.
+Commands are not provided. Please fork and create client side and server side commands.
 
 Concept: provide a server service to execute in remote the commands via REST service.
 
