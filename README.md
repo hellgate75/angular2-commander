@@ -87,5 +87,12 @@ You can run the unit tests with:
 npm run test
 ```
 
+## Contribute
+
+Commands are not provided. Please fork and create command side and server side commands.
+
+Concept: provide a server service to execute in remote the commands via REST service.
+
+
 ## License
  [MIT](/LICENSE.md)
