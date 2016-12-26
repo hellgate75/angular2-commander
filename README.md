@@ -91,7 +91,7 @@ npm run test
 
 Commands are not provided. Please fork and create client side and server side commands.
 
-Concept: provide a server service to execute in remote the commands via REST service.
+**Concept: provide a server service to execute in remote the commands via REST service.**
 
 
 ## License
