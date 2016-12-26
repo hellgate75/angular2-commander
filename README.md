@@ -13,6 +13,10 @@ This repo shows an example chat application using RxJS and Angular 2. The goal i
 * How to write injectable services in Angular 2
 * And much more
 
+<p align="center">
+  <img src="app/images/readme/commander.png" alt="Angular 2 RxJS Command Line Manager" width="713" height="574"/>
+</p>
+
 ## Quick start
 
 ```bash
