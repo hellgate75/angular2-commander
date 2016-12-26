@@ -24,7 +24,7 @@ require('./commander-line.scss');
   <div class="commander-line">
     <div class="commander-cursor">~></div>
     <input id="text" class="commander-span" (focus)="activate()"
-                (blur)="deactivate()" (keypress)="onKeyDown($event)" />
+                (blur)="deactivate()" (keydown.enter)="onKeyDown($event)" />
   </div>
   `
 })
@@ -41,16 +41,13 @@ class CommanderLineComponent implements OnInit {
     ;
   }
   onKeyDown(event: any): boolean {
-      if ( event.keyCode === 13 ) {
-        this.text = event.target.value;
-        this.commandEmitter.emit(this.text);
-        this.restarted = true;
-        event.defautPrevent = true;
-        event.target.value = '';
-        event.target.blur();
-        return false;
-      }
-      return true;
+      this.text = event.target.value;
+      this.commandEmitter.emit(this.text);
+      this.restarted = true;
+      event.defautPrevent = true;
+      event.target.value = '';
+      event.target.blur();
+      return false;
   }
 
   activate(): void {
